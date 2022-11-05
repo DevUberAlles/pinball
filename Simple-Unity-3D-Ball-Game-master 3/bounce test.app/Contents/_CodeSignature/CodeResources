@@ -426,7 +426,7 @@
 		</data>
 		<key>Resources/Data/Resources/unity_builtin_extra</key>
 		<data>
-		cpaJ0yuGYdbRNYFAq1OnHWXQcqY=
+		4m2L/v8mCROUOAY2UlWA+tspr7c=
 		</data>
 		<key>Resources/Data/RuntimeInitializeOnLoads.json</key>
 		<data>
@@ -450,7 +450,7 @@
 		</data>
 		<key>Resources/Data/globalgamemanagers</key>
 		<data>
-		B5F6/vQPv03Y75p63hOSqUGPl3E=
+		dRr59wgZpTRPi/ovpiU6XaONBHA=
 		</data>
 		<key>Resources/Data/globalgamemanagers.assets</key>
 		<data>
@@ -458,7 +458,7 @@
 		</data>
 		<key>Resources/Data/level0</key>
 		<data>
-		B7iNnQACrEGLIbxLmm57c5hbMpo=
+		nRoL/bg44sWpxDR4d5qVtLu54Fk=
 		</data>
 		<key>Resources/Data/level0.resS</key>
 		<data>
@@ -466,7 +466,7 @@
 		</data>
 		<key>Resources/Data/sharedassets0.assets</key>
 		<data>
-		d5CAWPjwLqLSwEPZwOBT3I+yurA=
+		dgCXrHk//tVT6W0OlLP5REHVDnM=
 		</data>
 		<key>Resources/DefaultPreferences.plist</key>
 		<data>
@@ -1388,7 +1388,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qG6QuCDmAM2+WJzjs5N7KxewxhgASb9ot7KW8SxAhUQ=
+			OhC/npNqHZpfl9W4BB6j12TN84UZJajKbWi0prAheMU=
 			</data>
 		</dict>
 		<key>Resources/Data/RuntimeInitializeOnLoads.json</key>
@@ -1430,7 +1430,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i633ohvdrzUNRyEGgDKFxw/Qv9I6Q6yHRT6l5Zqi/p8=
+			9uC2ZlEAbQEZ/v28n9Q4DN7iEL+XbrqDuGtXOnSomyU=
 			</data>
 		</dict>
 		<key>Resources/Data/globalgamemanagers.assets</key>
@@ -1444,7 +1444,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2G6fdv+IYjPrS6G4/htzUBRLNAYJYY9DSjTQgUbUuV4=
+			8KKSv5bc23FUpXpLw3H8xvTKL3lDKDdvpyDNc6yrr1c=
 			</data>
 		</dict>
 		<key>Resources/Data/level0.resS</key>
@@ -1458,7 +1458,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			97oziLFeu2514eXQtB8CI9a5iHuK6ovRokEG/9MK/3g=
+			NfDEuJI+CKzB8tQSb/cBTVe4x1gpAQsZ3XlrsEvAVjg=
 			</data>
 		</dict>
 		<key>Resources/DefaultPreferences.plist</key>
