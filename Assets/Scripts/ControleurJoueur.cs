@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 public class ControleurJoueur : MonoBehaviour
 {
 	public float vitesse;
@@ -11,6 +10,7 @@ public class ControleurJoueur : MonoBehaviour
     private Rigidbody rb;
     private int count;
     private int total;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +25,7 @@ public class ControleurJoueur : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
         Vector3 mouvement = new Vector3(moveHorizontal, 0.0f, moveVertical);
