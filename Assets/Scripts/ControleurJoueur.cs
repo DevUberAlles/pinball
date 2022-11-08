@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -43,6 +43,9 @@ public class ControleurJoueur : MonoBehaviour
         float moveVertical = Input.GetAxis("Vertical");
         Vector3 mouvement = new Vector3(moveHorizontal, 0.0f, moveVertical);
         
+
+        rb.AddForce(mouvement*vitesse);
+
         
         
 
