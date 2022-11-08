@@ -42,7 +42,10 @@ public class ControleurJoueur : MonoBehaviour
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
         Vector3 mouvement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        
+
         rb.AddForce(mouvement*vitesse);
+
         
         
 
