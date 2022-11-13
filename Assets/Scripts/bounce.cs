@@ -10,6 +10,7 @@ public class bounce : MonoBehaviour
         }
          void HitBall(){
             GetComponent<Rigidbody>().AddForce (new Vector3 (0f, 0f, 20f), ForceMode.Impulse);
+        //bla
         } 
     
 
