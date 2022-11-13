@@ -1,11 +1,13 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class ControleurJoueur : MonoBehaviour
 {
-	public float vitesse;
+    //public Rigidbody2D rb;
+    public float jumpAmount = 10;
+    public float vitesse;
     public Text countText;
     public Text winText;
     private Rigidbody rb;
@@ -21,16 +23,34 @@ public class ControleurJoueur : MonoBehaviour
       winText.text = "";
 
     }
+    
+    void Update(){
+     if (Input.GetKeyDown(KeyCode.Space))
+    {
+        rb.AddForce(Vector3.up * jumpAmount, ForceMode.Impulse);
+    }
+    else if(Input.GetKeyDown(KeyCode.JoystickButton2))
+    {
+        rb.AddForce(Vector3.up * jumpAmount, ForceMode.Impulse);
+    }
+    }
 
     // Update is called once per frame
     void FixedUpdate()
-    {
+    {   
+    
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
         Vector3 mouvement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        
+
         rb.AddForce(mouvement*vitesse);
 
+        
+        
+
     }
+    
     public void OnTriggerEnter (Collider other) {
         if (other.gameObject.CompareTag ("Cible")) 
         {
